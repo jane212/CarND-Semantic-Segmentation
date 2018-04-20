@@ -1,6 +1,6 @@
 # Semantic Segmentation
 ## Introduction
-In this project, we use Fully Convolutional Network (FCN) to classify every pixel in an image to be road or not road. It is a basic step in scene understanding. This project implements the idea from this paper: https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf
+In this project, we use Fully Convolutional Network (FCN) to classify every pixel in an image to be road or not road. It is a basic step in scene understanding. This project implements the idea from this paper: [Fully Convolutional Networks for Semantic Segmentation](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
 
 ## Setup
 ### Frameworks and Packages
@@ -11,7 +11,7 @@ Make sure you have the following is installed:
  - [SciPy](https://www.scipy.org/)
 
 ### Dataset
-Download the [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) from [here](http://www.cvlibs.net/download.php?file=data_road.zip).  Extract the dataset in the `data` folder.  This will create the folder `data_road` with all the training a test images.
+Download the [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) from [here](http://www.cvlibs.net/download.php?file=data_road.zip).  Extract the dataset in the `data` folder.  This will create the folder `data_road` with all the training and test images.
 
 ## Model
 ### Hyperparameter
